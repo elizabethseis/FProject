@@ -43,7 +43,7 @@ namespace EProject
         [FindsBy(How = How.XPath, Using = "//div[@class='a-row a-size-base hlb-price a-color-price']")]
         public IWebElement PriceCart { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//span[contains(text(),'Alienware AW3418DW Monitor Gaming Curvo 34\", LED-L')]")]
+        [FindsBy(How = How.XPath, Using = "//span[contains(text(),'Monitor Curvo Gamer Alienware AW3418DW 34')]")]
         public IWebElement LinkDisplay { get; set; }
 
        
